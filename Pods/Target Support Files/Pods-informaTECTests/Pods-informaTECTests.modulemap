@@ -1,0 +1,6 @@
+framework module Pods_informaTECTests {
+  umbrella header "Pods-informaTECTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

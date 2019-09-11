@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FA9A882544117EAAAFDAF66 /* Pods_informaTEC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2741107FE496A95E1B8C21B1 /* Pods_informaTEC.framework */; };
+		6A4C10D99D7D25287BD6E143 /* Pods_informaTECUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3402A4EDA4230462E588C13 /* Pods_informaTECUITests.framework */; };
+		BBEB8046965962967A00E268 /* Pods_informaTECTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264DBFABF8A5825A36DFF42E /* Pods_informaTECTests.framework */; };
 		CD7770EC231E9A56006E8767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7770EB231E9A56006E8767 /* AppDelegate.swift */; };
 		CD7770EE231E9A56006E8767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7770ED231E9A56006E8767 /* ViewController.swift */; };
 		CD7770F1231E9A56006E8767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7770EF231E9A56006E8767 /* Main.storyboard */; };
@@ -14,6 +17,11 @@
 		CD7770F6231E9A58006E8767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7770F4231E9A58006E8767 /* LaunchScreen.storyboard */; };
 		CD777101231E9A58006E8767 /* informaTECTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD777100231E9A58006E8767 /* informaTECTests.swift */; };
 		CD77710C231E9A58006E8767 /* informaTECUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77710B231E9A58006E8767 /* informaTECUITests.swift */; };
+		CD8445662322884E0024B462 /* 8550-social-fever.json in Resources */ = {isa = PBXBuildFile; fileRef = CD8445652322884D0024B462 /* 8550-social-fever.json */; };
+		CD844568232290F50024B462 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD844567232290F50024B462 /* RegisterViewController.swift */; };
+		CD8B7F9623292DD300A3EA5E /* AdvicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7F9523292DD300A3EA5E /* AdvicesViewController.swift */; };
+		CD8B7F9823292DE400A3EA5E /* CredentialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7F9723292DE400A3EA5E /* CredentialViewController.swift */; };
+		CDFE521123214CBE0060CB34 /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = CDFE521023214CBE0060CB34 /* login.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		119F9A33DFF203EC042E3675 /* Pods-informaTECTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-informaTECTests.release.xcconfig"; path = "Target Support Files/Pods-informaTECTests/Pods-informaTECTests.release.xcconfig"; sourceTree = "<group>"; };
+		264DBFABF8A5825A36DFF42E /* Pods_informaTECTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_informaTECTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2741107FE496A95E1B8C21B1 /* Pods_informaTEC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_informaTEC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F72C5D8D9D6999AFD0618A /* Pods-informaTEC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-informaTEC.release.xcconfig"; path = "Target Support Files/Pods-informaTEC/Pods-informaTEC.release.xcconfig"; sourceTree = "<group>"; };
+		CC356912EBCB0DD621ACBDCD /* Pods-informaTECUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-informaTECUITests.release.xcconfig"; path = "Target Support Files/Pods-informaTECUITests/Pods-informaTECUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CD7770E8231E9A56006E8767 /* informaTEC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = informaTEC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7770EB231E9A56006E8767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD7770ED231E9A56006E8767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,15 @@
 		CD777107231E9A58006E8767 /* informaTECUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = informaTECUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD77710B231E9A58006E8767 /* informaTECUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informaTECUITests.swift; sourceTree = "<group>"; };
 		CD77710D231E9A58006E8767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8445652322884D0024B462 /* 8550-social-fever.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "8550-social-fever.json"; sourceTree = "<group>"; };
+		CD844567232290F50024B462 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CD8B7F9523292DD300A3EA5E /* AdvicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvicesViewController.swift; sourceTree = "<group>"; };
+		CD8B7F9723292DE400A3EA5E /* CredentialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialViewController.swift; sourceTree = "<group>"; };
+		CDFE521023214CBE0060CB34 /* login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = login.json; sourceTree = "<group>"; };
+		D9984A5C6B0FCC1DA6EE6899 /* Pods-informaTECUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-informaTECUITests.debug.xcconfig"; path = "Target Support Files/Pods-informaTECUITests/Pods-informaTECUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA1BC38C21D4078D623D975B /* Pods-informaTEC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-informaTEC.debug.xcconfig"; path = "Target Support Files/Pods-informaTEC/Pods-informaTEC.debug.xcconfig"; sourceTree = "<group>"; };
+		E3402A4EDA4230462E588C13 /* Pods_informaTECUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_informaTECUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3D5D73767FD6CAE1AEB8B3 /* Pods-informaTECTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-informaTECTests.debug.xcconfig"; path = "Target Support Files/Pods-informaTECTests/Pods-informaTECTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA9A882544117EAAAFDAF66 /* Pods_informaTEC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBEB8046965962967A00E268 /* Pods_informaTECTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4C10D99D7D25287BD6E143 /* Pods_informaTECUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		907EE83D1F584EA070AD8956 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA1BC38C21D4078D623D975B /* Pods-informaTEC.debug.xcconfig */,
+				68F72C5D8D9D6999AFD0618A /* Pods-informaTEC.release.xcconfig */,
+				FF3D5D73767FD6CAE1AEB8B3 /* Pods-informaTECTests.debug.xcconfig */,
+				119F9A33DFF203EC042E3675 /* Pods-informaTECTests.release.xcconfig */,
+				D9984A5C6B0FCC1DA6EE6899 /* Pods-informaTECUITests.debug.xcconfig */,
+				CC356912EBCB0DD621ACBDCD /* Pods-informaTECUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CD7770DF231E9A56006E8767 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				CD7770FF231E9A58006E8767 /* informaTECTests */,
 				CD77710A231E9A58006E8767 /* informaTECUITests */,
 				CD7770E9231E9A56006E8767 /* Products */,
+				907EE83D1F584EA070AD8956 /* Pods */,
+				E9F4E1B4EE0305B8F1ED7855 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +137,17 @@
 		CD7770EA231E9A56006E8767 /* informaTEC */ = {
 			isa = PBXGroup;
 			children = (
+				CD8445652322884D0024B462 /* 8550-social-fever.json */,
+				CDFE521023214CBE0060CB34 /* login.json */,
 				CD7770EB231E9A56006E8767 /* AppDelegate.swift */,
 				CD7770ED231E9A56006E8767 /* ViewController.swift */,
 				CD7770EF231E9A56006E8767 /* Main.storyboard */,
 				CD7770F2231E9A58006E8767 /* Assets.xcassets */,
 				CD7770F4231E9A58006E8767 /* LaunchScreen.storyboard */,
 				CD7770F7231E9A58006E8767 /* Info.plist */,
+				CD844567232290F50024B462 /* RegisterViewController.swift */,
+				CD8B7F9523292DD300A3EA5E /* AdvicesViewController.swift */,
+				CD8B7F9723292DE400A3EA5E /* CredentialViewController.swift */,
 			);
 			path = informaTEC;
 			sourceTree = "<group>";
@@ -125,6 +170,16 @@
 			path = informaTECUITests;
 			sourceTree = "<group>";
 		};
+		E9F4E1B4EE0305B8F1ED7855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2741107FE496A95E1B8C21B1 /* Pods_informaTEC.framework */,
+				264DBFABF8A5825A36DFF42E /* Pods_informaTECTests.framework */,
+				E3402A4EDA4230462E588C13 /* Pods_informaTECUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD777110231E9A58006E8767 /* Build configuration list for PBXNativeTarget "informaTEC" */;
 			buildPhases = (
+				38292922FE5EF8DE44302251 /* [CP] Check Pods Manifest.lock */,
 				CD7770E4231E9A56006E8767 /* Sources */,
 				CD7770E5231E9A56006E8767 /* Frameworks */,
 				CD7770E6231E9A56006E8767 /* Resources */,
+				4E6D3B65BFAA6F92B237D8D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD777113231E9A58006E8767 /* Build configuration list for PBXNativeTarget "informaTECTests" */;
 			buildPhases = (
+				42D94E56354FA5B19F703705 /* [CP] Check Pods Manifest.lock */,
 				CD7770F8231E9A58006E8767 /* Sources */,
 				CD7770F9231E9A58006E8767 /* Frameworks */,
 				CD7770FA231E9A58006E8767 /* Resources */,
@@ -167,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD777116231E9A58006E8767 /* Build configuration list for PBXNativeTarget "informaTECUITests" */;
 			buildPhases = (
+				5E9951A494C8A5EBF430302F /* [CP] Check Pods Manifest.lock */,
 				CD777103231E9A58006E8767 /* Sources */,
 				CD777104231E9A58006E8767 /* Frameworks */,
 				CD777105231E9A58006E8767 /* Resources */,
@@ -229,9 +288,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8445662322884E0024B462 /* 8550-social-fever.json in Resources */,
 				CD7770F6231E9A58006E8767 /* LaunchScreen.storyboard in Resources */,
 				CD7770F3231E9A58006E8767 /* Assets.xcassets in Resources */,
 				CD7770F1231E9A56006E8767 /* Main.storyboard in Resources */,
+				CDFE521123214CBE0060CB34 /* login.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +312,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38292922FE5EF8DE44302251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-informaTEC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42D94E56354FA5B19F703705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-informaTECTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E6D3B65BFAA6F92B237D8D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-informaTEC/Pods-informaTEC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-informaTEC/Pods-informaTEC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-informaTEC/Pods-informaTEC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9951A494C8A5EBF430302F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-informaTECUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD7770E4231E9A56006E8767 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8B7F9623292DD300A3EA5E /* AdvicesViewController.swift in Sources */,
+				CD844568232290F50024B462 /* RegisterViewController.swift in Sources */,
 				CD7770EE231E9A56006E8767 /* ViewController.swift in Sources */,
 				CD7770EC231E9A56006E8767 /* AppDelegate.swift in Sources */,
+				CD8B7F9823292DE400A3EA5E /* CredentialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +580,7 @@
 		};
 		CD777111231E9A58006E8767 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1BC38C21D4078D623D975B /* Pods-informaTEC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +598,7 @@
 		};
 		CD777112231E9A58006E8767 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F72C5D8D9D6999AFD0618A /* Pods-informaTEC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +616,7 @@
 		};
 		CD777114231E9A58006E8767 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3D5D73767FD6CAE1AEB8B3 /* Pods-informaTECTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +637,7 @@
 		};
 		CD777115231E9A58006E8767 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119F9A33DFF203EC042E3675 /* Pods-informaTECTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +658,7 @@
 		};
 		CD777117231E9A58006E8767 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9984A5C6B0FCC1DA6EE6899 /* Pods-informaTECUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +678,7 @@
 		};
 		CD777118231E9A58006E8767 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC356912EBCB0DD621ACBDCD /* Pods-informaTECUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

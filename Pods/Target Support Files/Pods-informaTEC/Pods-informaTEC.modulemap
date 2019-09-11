@@ -1,0 +1,6 @@
+framework module Pods_informaTEC {
+  umbrella header "Pods-informaTEC-umbrella.h"
+
+  export *
+  module * { export * }
+}
