@@ -197,8 +197,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9cn-FR-ehx"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Credencial" id="6mj-nx-2Wc">
+                    <tabBarItem key="tabBarItem" title="Credencial" image="icons8-identificación-verificada-25" id="6mj-nx-2Wc">
                         <color key="badgeColor" red="1" green="0.18153606620000001" blue="0.2369688261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2hj-PJ-67w" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -215,7 +216,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="5G3-cT-KNN"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="PtK-2o-hEJ">
+                    <tabBarItem key="tabBarItem" title="Home" image="icons8-cucha-25" id="PtK-2o-hEJ">
                         <color key="badgeColor" red="1" green="0.18153606620000001" blue="0.2369688261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                 </viewController>
@@ -266,5 +267,7 @@
     </scenes>
     <resources>
         <image name="iconfinder_icon-70_667363" width="512" height="512"/>
+        <image name="icons8-cucha-25" width="25" height="25"/>
+        <image name="icons8-identificación-verificada-25" width="25" height="25"/>
     </resources>
 </document>
