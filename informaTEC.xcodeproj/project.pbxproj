@@ -21,6 +21,8 @@
 		CD844568232290F50024B462 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD844567232290F50024B462 /* RegisterViewController.swift */; };
 		CD8B7F9623292DD300A3EA5E /* AdvicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7F9523292DD300A3EA5E /* AdvicesViewController.swift */; };
 		CD8B7F9823292DE400A3EA5E /* CredentialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7F9723292DE400A3EA5E /* CredentialViewController.swift */; };
+		CDB1137F2339078C0034CAE7 /* Aviso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDB1137D2339078C0034CAE7 /* Aviso.xcdatamodeld */; };
+		CDB11381233909BE0034CAE7 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB11380233909BE0034CAE7 /* CoreDataManager.swift */; };
 		CDFE521123214CBE0060CB34 /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = CDFE521023214CBE0060CB34 /* login.json */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,8 @@
 		CD844567232290F50024B462 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CD8B7F9523292DD300A3EA5E /* AdvicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvicesViewController.swift; sourceTree = "<group>"; };
 		CD8B7F9723292DE400A3EA5E /* CredentialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialViewController.swift; sourceTree = "<group>"; };
+		CDB1137E2339078C0034CAE7 /* Aviso.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aviso.xcdatamodel; sourceTree = "<group>"; };
+		CDB11380233909BE0034CAE7 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		CDFE521023214CBE0060CB34 /* login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = login.json; sourceTree = "<group>"; };
 		D9984A5C6B0FCC1DA6EE6899 /* Pods-informaTECUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-informaTECUITests.debug.xcconfig"; path = "Target Support Files/Pods-informaTECUITests/Pods-informaTECUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA1BC38C21D4078D623D975B /* Pods-informaTEC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-informaTEC.debug.xcconfig"; path = "Target Support Files/Pods-informaTEC/Pods-informaTEC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 				CD844567232290F50024B462 /* RegisterViewController.swift */,
 				CD8B7F9523292DD300A3EA5E /* AdvicesViewController.swift */,
 				CD8B7F9723292DE400A3EA5E /* CredentialViewController.swift */,
+				CDB1137D2339078C0034CAE7 /* Aviso.xcdatamodeld */,
+				CDB11380233909BE0034CAE7 /* CoreDataManager.swift */,
 			);
 			path = informaTEC;
 			sourceTree = "<group>";
@@ -405,8 +411,10 @@
 			files = (
 				CD8B7F9623292DD300A3EA5E /* AdvicesViewController.swift in Sources */,
 				CD844568232290F50024B462 /* RegisterViewController.swift in Sources */,
+				CDB1137F2339078C0034CAE7 /* Aviso.xcdatamodeld in Sources */,
 				CD7770EE231E9A56006E8767 /* ViewController.swift in Sources */,
 				CD7770EC231E9A56006E8767 /* AppDelegate.swift in Sources */,
+				CDB11381233909BE0034CAE7 /* CoreDataManager.swift in Sources */,
 				CD8B7F9823292DE400A3EA5E /* CredentialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -736,6 +744,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDB1137D2339078C0034CAE7 /* Aviso.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDB1137E2339078C0034CAE7 /* Aviso.xcdatamodel */,
+			);
+			currentVersion = CDB1137E2339078C0034CAE7 /* Aviso.xcdatamodel */;
+			path = Aviso.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CD7770E0231E9A56006E8767 /* Project object */;
 }
