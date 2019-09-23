@@ -38,7 +38,6 @@ class CoreDataManager{
         aviso.estado = estado
         aviso.fechaAlta = fechaAlta
         aviso.fechaFin = fechaFin
-        
         do {
             try context.save()
             print("Aviso guardado \(titulo)")
