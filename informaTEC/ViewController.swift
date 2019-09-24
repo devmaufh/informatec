@@ -37,10 +37,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        print("INSERTANDO REGISTRO")
-        manager.createAvisos(id: 11, userId: 9, titulo: "Aviso 1", descripcion: "ESTE ES UN AVISO", estado: 1, fechaAlta: Date(), fechaFin: Date(), completion: {
-            print("Registro insertado x2")
-        })
+        //print("INSERTANDO REGISTRO")
+        
+        /*for i in 1...100 {
+            manager.createAvisos(id: Int16(i), userId: Int16(i+1), titulo: "Aviso numero \(i)", descripcion: "ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO ESTE ES UN AVISO", estado: 1, fechaAlta: Date(), fechaFin: Date(), completion: {
+                print("Registro insertado \(i)")
+            })
+        }*/
+ 
     }
     
     @IBAction func btnLogin(_ sender: Any) {
@@ -49,7 +53,6 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.barTintColor = UIColor.white
     }
-    
 
 }
 

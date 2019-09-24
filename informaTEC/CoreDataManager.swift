@@ -46,4 +46,21 @@ class CoreDataManager{
             print("Error al guardar avisos")
         }
     }
+    func retrieveAvisos() -> [AvisoEntity]{
+        var avisos: [AvisoEntity] = []
+        let context = container.viewContext
+        
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult> (entityName: "AvisoEntity")
+        
+        do{
+            let result = try context.fetch(fetchRequest)
+            
+            for aviso in result as! [AvisoEntity] {
+                avisos.append(aviso)
+            }
+        } catch {
+            print("Error")
+        }
+        return avisos
+    }
 }

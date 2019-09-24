@@ -19,6 +19,7 @@
 		CD77710C231E9A58006E8767 /* informaTECUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77710B231E9A58006E8767 /* informaTECUITests.swift */; };
 		CD8445662322884E0024B462 /* 8550-social-fever.json in Resources */ = {isa = PBXBuildFile; fileRef = CD8445652322884D0024B462 /* 8550-social-fever.json */; };
 		CD844568232290F50024B462 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD844567232290F50024B462 /* RegisterViewController.swift */; };
+		CD84FC18233A584F001C7F3B /* DetalleAvisoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FC17233A584F001C7F3B /* DetalleAvisoViewController.swift */; };
 		CD8B7F9623292DD300A3EA5E /* AdvicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7F9523292DD300A3EA5E /* AdvicesViewController.swift */; };
 		CD8B7F9823292DE400A3EA5E /* CredentialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7F9723292DE400A3EA5E /* CredentialViewController.swift */; };
 		CDB1137F2339078C0034CAE7 /* Aviso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDB1137D2339078C0034CAE7 /* Aviso.xcdatamodeld */; };
@@ -64,6 +65,7 @@
 		CD77710D231E9A58006E8767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD8445652322884D0024B462 /* 8550-social-fever.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "8550-social-fever.json"; sourceTree = "<group>"; };
 		CD844567232290F50024B462 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CD84FC17233A584F001C7F3B /* DetalleAvisoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleAvisoViewController.swift; sourceTree = "<group>"; };
 		CD8B7F9523292DD300A3EA5E /* AdvicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvicesViewController.swift; sourceTree = "<group>"; };
 		CD8B7F9723292DE400A3EA5E /* CredentialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialViewController.swift; sourceTree = "<group>"; };
 		CDB1137E2339078C0034CAE7 /* Aviso.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aviso.xcdatamodel; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				CDFE521023214CBE0060CB34 /* login.json */,
 				CD7770EB231E9A56006E8767 /* AppDelegate.swift */,
 				CD7770ED231E9A56006E8767 /* ViewController.swift */,
+				CD84FC17233A584F001C7F3B /* DetalleAvisoViewController.swift */,
 				CD7770EF231E9A56006E8767 /* Main.storyboard */,
 				CD7770F2231E9A58006E8767 /* Assets.xcassets */,
 				CD7770F4231E9A58006E8767 /* LaunchScreen.storyboard */,
@@ -415,6 +418,7 @@
 				CD7770EE231E9A56006E8767 /* ViewController.swift in Sources */,
 				CD7770EC231E9A56006E8767 /* AppDelegate.swift in Sources */,
 				CDB11381233909BE0034CAE7 /* CoreDataManager.swift in Sources */,
+				CD84FC18233A584F001C7F3B /* DetalleAvisoViewController.swift in Sources */,
 				CD8B7F9823292DE400A3EA5E /* CredentialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

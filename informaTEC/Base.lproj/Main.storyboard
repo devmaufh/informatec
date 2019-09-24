@@ -218,7 +218,6 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="1" green="0.18153606620000001" blue="0.2369688261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <inset key="separatorInset" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                                 <connections>
                                     <outlet property="dataSource" destination="S5a-UL-KL8" id="e6J-kG-Jxb"/>
                                     <outlet property="delegate" destination="S5a-UL-KL8" id="K0o-t3-Kpy"/>
@@ -237,10 +236,95 @@
                     <tabBarItem key="tabBarItem" title="Home" image="icons8-cucha-25" id="PtK-2o-hEJ">
                         <color key="badgeColor" red="1" green="0.18153606620000001" blue="0.2369688261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
+                    <connections>
+                        <segue destination="Ww0-Xi-zcQ" kind="popoverPresentation" identifier="aviso_detalle" popoverAnchorView="OH7-hy-Uqj" id="KVU-oI-Dyk">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                            <popoverPassthroughViews>
+                                <tableView reference="OH7-hy-Uqj"/>
+                            </popoverPassthroughViews>
+                        </segue>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U7k-k5-OsN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1937.68115942029" y="59.598214285714285"/>
+        </scene>
+        <!--Detalle Aviso View Controller-->
+        <scene sceneID="QL4-Du-nzZ">
+            <objects>
+                <viewController modalPresentationStyle="overCurrentContext" id="Ww0-Xi-zcQ" customClass="DetalleAvisoViewController" customModule="informaTEC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zDd-NC-maN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AVISO AVISO AVISO AVISO AVISO AVISO AVISO AVISO" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUt-ke-ksS">
+                                <rect key="frame" x="25" y="93" width="364" height="42.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8T-E1-Zcw">
+                                <rect key="frame" x="15" y="1087.5" width="384" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="educafin" translatesAutoresizingMaskIntoConstraints="NO" id="PRy-fq-9pU">
+                                <rect key="frame" x="15" y="144" width="384" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="0Vh-z2-Xvl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEZ-li-NIi">
+                                <rect key="frame" x="15" y="574" width="384" height="24"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oMi-hE-mal">
+                                <rect key="frame" x="15" y="608" width="384" height="174.5"/>
+                                <string key="text">adsda sdas daosd aoiaisodjasio dasoidaosid jasoidj aois jdoiasjd oai doias doiasjdoiasj doiasj doiasjdoaisj doaisdj oaisjdaoidjoaijdao id asd asdasdasjdiopasdjasdp jasjdas[djas[idoas[ iodas[diojas[diasd[oiajsd[oiasjda[soi djas [idas d[iasd[ioasjd[oiasj [oiasj d[asijd as[oid as[oid aosi[ jda[soidjas[oida[osid as[ido ja[s idja s[oija[iodjas[djiasd[i a[diajs d[iasj[asid </string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bh2-7h-TYw">
+                                <rect key="frame" x="15" y="40" width="42" height="33"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="Atras"/>
+                                <connections>
+                                    <action selector="btn_back:" destination="Ww0-Xi-zcQ" eventType="touchUpInside" id="h8T-mr-U1G"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="1" green="0.18153606620000001" blue="0.2369688261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bh2-7h-TYw" firstAttribute="top" secondItem="zDd-NC-maN" secondAttribute="top" constant="40" id="7Iv-PX-PXg"/>
+                            <constraint firstItem="aEZ-li-NIi" firstAttribute="leading" secondItem="1Dq-Rh-kaQ" secondAttribute="leading" constant="15" id="9Ml-k2-hjt"/>
+                            <constraint firstItem="1Dq-Rh-kaQ" firstAttribute="trailing" secondItem="aEZ-li-NIi" secondAttribute="trailing" constant="15" id="KEb-wi-1Ly"/>
+                            <constraint firstItem="bh2-7h-TYw" firstAttribute="leading" secondItem="1Dq-Rh-kaQ" secondAttribute="leading" constant="15" id="LWR-UE-Ugn"/>
+                            <constraint firstItem="1Dq-Rh-kaQ" firstAttribute="trailing" secondItem="oMi-hE-mal" secondAttribute="trailing" constant="15" id="PvQ-m8-ksM"/>
+                            <constraint firstItem="oMi-hE-mal" firstAttribute="leading" secondItem="1Dq-Rh-kaQ" secondAttribute="leading" constant="15" id="Zxm-b2-UyU"/>
+                            <constraint firstItem="oMi-hE-mal" firstAttribute="top" secondItem="aEZ-li-NIi" secondAttribute="bottom" constant="10" id="aXP-2F-tvn"/>
+                            <constraint firstItem="1Dq-Rh-kaQ" firstAttribute="trailing" secondItem="PRy-fq-9pU" secondAttribute="trailing" constant="15" id="kd7-RG-5S6"/>
+                            <constraint firstItem="PRy-fq-9pU" firstAttribute="leading" secondItem="1Dq-Rh-kaQ" secondAttribute="leading" constant="15" id="qut-El-BLH"/>
+                            <constraint firstItem="PRy-fq-9pU" firstAttribute="top" secondItem="zDd-NC-maN" secondAttribute="topMargin" constant="100" id="xih-QU-geI"/>
+                            <constraint firstItem="aEZ-li-NIi" firstAttribute="top" secondItem="PRy-fq-9pU" secondAttribute="bottom" constant="30" id="y4g-ET-ewQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1Dq-Rh-kaQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="img" destination="PRy-fq-9pU" id="oeR-NM-dBe"/>
+                        <outlet property="lblDescripcion" destination="oMi-hE-mal" id="ZFz-GI-C2u"/>
+                        <outlet property="lblTitulo" destination="PUt-ke-ksS" id="zIi-wg-LQu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wdM-qx-lwN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2921.739130434783" y="70.982142857142847"/>
         </scene>
         <!--Home-->
         <scene sceneID="iRG-3h-jlG">
@@ -284,6 +368,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="educafin" width="1225" height="793"/>
         <image name="iconfinder_icon-70_667363" width="512" height="512"/>
         <image name="icons8-cucha-25" width="25" height="25"/>
         <image name="icons8-identificación-verificada-25" width="25" height="25"/>
