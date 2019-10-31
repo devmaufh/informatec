@@ -10,6 +10,8 @@
 		5FA9A882544117EAAAFDAF66 /* Pods_informaTEC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2741107FE496A95E1B8C21B1 /* Pods_informaTEC.framework */; };
 		6A4C10D99D7D25287BD6E143 /* Pods_informaTECUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3402A4EDA4230462E588C13 /* Pods_informaTECUITests.framework */; };
 		BBEB8046965962967A00E268 /* Pods_informaTECTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264DBFABF8A5825A36DFF42E /* Pods_informaTECTests.framework */; };
+		CD6295B9234F6C7E00FFE80A /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6295B8234F6C7E00FFE80A /* Structures.swift */; };
+		CD6295BB234F727200FFE80A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6295BA234F727200FFE80A /* Models.swift */; };
 		CD7770EC231E9A56006E8767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7770EB231E9A56006E8767 /* AppDelegate.swift */; };
 		CD7770EE231E9A56006E8767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7770ED231E9A56006E8767 /* ViewController.swift */; };
 		CD7770F1231E9A56006E8767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7770EF231E9A56006E8767 /* Main.storyboard */; };
@@ -20,6 +22,7 @@
 		CD8445662322884E0024B462 /* 8550-social-fever.json in Resources */ = {isa = PBXBuildFile; fileRef = CD8445652322884D0024B462 /* 8550-social-fever.json */; };
 		CD844568232290F50024B462 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD844567232290F50024B462 /* RegisterViewController.swift */; };
 		CD84FC18233A584F001C7F3B /* DetalleAvisoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84FC17233A584F001C7F3B /* DetalleAvisoViewController.swift */; };
+		CD85423C233D021800553B38 /* ApiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85423B233D021800553B38 /* ApiRepository.swift */; };
 		CD8B7F9623292DD300A3EA5E /* AdvicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7F9523292DD300A3EA5E /* AdvicesViewController.swift */; };
 		CD8B7F9823292DE400A3EA5E /* CredentialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B7F9723292DE400A3EA5E /* CredentialViewController.swift */; };
 		CDB1137F2339078C0034CAE7 /* Aviso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDB1137D2339078C0034CAE7 /* Aviso.xcdatamodeld */; };
@@ -50,6 +53,8 @@
 		2741107FE496A95E1B8C21B1 /* Pods_informaTEC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_informaTEC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F72C5D8D9D6999AFD0618A /* Pods-informaTEC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-informaTEC.release.xcconfig"; path = "Target Support Files/Pods-informaTEC/Pods-informaTEC.release.xcconfig"; sourceTree = "<group>"; };
 		CC356912EBCB0DD621ACBDCD /* Pods-informaTECUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-informaTECUITests.release.xcconfig"; path = "Target Support Files/Pods-informaTECUITests/Pods-informaTECUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD6295B8234F6C7E00FFE80A /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		CD6295BA234F727200FFE80A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		CD7770E8231E9A56006E8767 /* informaTEC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = informaTEC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7770EB231E9A56006E8767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD7770ED231E9A56006E8767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +71,7 @@
 		CD8445652322884D0024B462 /* 8550-social-fever.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "8550-social-fever.json"; sourceTree = "<group>"; };
 		CD844567232290F50024B462 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CD84FC17233A584F001C7F3B /* DetalleAvisoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleAvisoViewController.swift; sourceTree = "<group>"; };
+		CD85423B233D021800553B38 /* ApiRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRepository.swift; sourceTree = "<group>"; };
 		CD8B7F9523292DD300A3EA5E /* AdvicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvicesViewController.swift; sourceTree = "<group>"; };
 		CD8B7F9723292DE400A3EA5E /* CredentialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialViewController.swift; sourceTree = "<group>"; };
 		CDB1137E2339078C0034CAE7 /* Aviso.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aviso.xcdatamodel; sourceTree = "<group>"; };
@@ -118,6 +124,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CD6295B7234F6C6B00FFE80A /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				CD6295B8234F6C7E00FFE80A /* Structures.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
 		CD7770DF231E9A56006E8767 = {
 			isa = PBXGroup;
 			children = (
@@ -143,20 +157,17 @@
 		CD7770EA231E9A56006E8767 /* informaTEC */ = {
 			isa = PBXGroup;
 			children = (
+				CD6295B7234F6C6B00FFE80A /* Structs */,
+				CD79AF48233E454E00D24A61 /* API */,
+				CD79AF47233E451A00D24A61 /* ViewControllers */,
+				CD79AF46233E450300D24A61 /* CoreData */,
 				CD8445652322884D0024B462 /* 8550-social-fever.json */,
 				CDFE521023214CBE0060CB34 /* login.json */,
 				CD7770EB231E9A56006E8767 /* AppDelegate.swift */,
-				CD7770ED231E9A56006E8767 /* ViewController.swift */,
-				CD84FC17233A584F001C7F3B /* DetalleAvisoViewController.swift */,
 				CD7770EF231E9A56006E8767 /* Main.storyboard */,
 				CD7770F2231E9A58006E8767 /* Assets.xcassets */,
 				CD7770F4231E9A58006E8767 /* LaunchScreen.storyboard */,
 				CD7770F7231E9A58006E8767 /* Info.plist */,
-				CD844567232290F50024B462 /* RegisterViewController.swift */,
-				CD8B7F9523292DD300A3EA5E /* AdvicesViewController.swift */,
-				CD8B7F9723292DE400A3EA5E /* CredentialViewController.swift */,
-				CDB1137D2339078C0034CAE7 /* Aviso.xcdatamodeld */,
-				CDB11380233909BE0034CAE7 /* CoreDataManager.swift */,
 			);
 			path = informaTEC;
 			sourceTree = "<group>";
@@ -177,6 +188,36 @@
 				CD77710D231E9A58006E8767 /* Info.plist */,
 			);
 			path = informaTECUITests;
+			sourceTree = "<group>";
+		};
+		CD79AF46233E450300D24A61 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CDB11380233909BE0034CAE7 /* CoreDataManager.swift */,
+				CDB1137D2339078C0034CAE7 /* Aviso.xcdatamodeld */,
+				CD6295BA234F727200FFE80A /* Models.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CD79AF47233E451A00D24A61 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD84FC17233A584F001C7F3B /* DetalleAvisoViewController.swift */,
+				CD7770ED231E9A56006E8767 /* ViewController.swift */,
+				CD8B7F9723292DE400A3EA5E /* CredentialViewController.swift */,
+				CD8B7F9523292DD300A3EA5E /* AdvicesViewController.swift */,
+				CD844567232290F50024B462 /* RegisterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CD79AF48233E454E00D24A61 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CD85423B233D021800553B38 /* ApiRepository.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		E9F4E1B4EE0305B8F1ED7855 /* Frameworks */ = {
@@ -412,11 +453,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6295BB234F727200FFE80A /* Models.swift in Sources */,
 				CD8B7F9623292DD300A3EA5E /* AdvicesViewController.swift in Sources */,
 				CD844568232290F50024B462 /* RegisterViewController.swift in Sources */,
 				CDB1137F2339078C0034CAE7 /* Aviso.xcdatamodeld in Sources */,
 				CD7770EE231E9A56006E8767 /* ViewController.swift in Sources */,
 				CD7770EC231E9A56006E8767 /* AppDelegate.swift in Sources */,
+				CD6295B9234F6C7E00FFE80A /* Structures.swift in Sources */,
+				CD85423C233D021800553B38 /* ApiRepository.swift in Sources */,
 				CDB11381233909BE0034CAE7 /* CoreDataManager.swift in Sources */,
 				CD84FC18233A584F001C7F3B /* DetalleAvisoViewController.swift in Sources */,
 				CD8B7F9823292DE400A3EA5E /* CredentialViewController.swift in Sources */,

@@ -34,6 +34,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         txtControl.setIcon(UIImage(named: "icons8-usuario-50")!)
         txtPassword.setIcon(UIImage(named: "pass")!)
+        
+        ApiRepository().fetchAvisos()
         // Do any additional setup after loading the view, typically from a nib.
         
         
