@@ -18,5 +18,6 @@ public struct Aviso: Codable {
     let fechaAlta: Date
     let estado: Int
     let url: String
+    let image: String
 }
 

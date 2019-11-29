@@ -28,7 +28,7 @@ class CoreDataManager{
             
         })
     }
-    func createAvisos(id: Int16, userId: Int16, titulo: String, descripcion: String, estado: Int16, fechaAlta: Date, fechaFin: Date, completion: @escaping() -> Void){
+    func createAvisos(id: Int16, userId: Int16, titulo: String, descripcion: String, estado: Int16, fechaAlta: Date, fechaFin: Date,image: String, completion: @escaping() -> Void){
         let context = container.viewContext
         let aviso = AvisoEntity(context: context)
         aviso.id = id
@@ -38,12 +38,25 @@ class CoreDataManager{
         aviso.estado = estado
         aviso.fechaAlta = fechaAlta
         aviso.fechaFin = fechaFin
+        aviso.image = image
         do {
             try context.save()
             print("Aviso guardado \(titulo)")
             completion()
         } catch{
             print("Error al guardar avisos")
+        }
+    }
+    func deleteAll (){
+        let context = container.viewContext
+        print("Borrando avisos")
+
+        let fetchAvisos = NSFetchRequest<NSFetchRequestResult>(entityName: "AvisoEntity")
+        let batchRq = NSBatchDeleteRequest(fetchRequest: fetchAvisos )
+        do{
+            try context.execute(batchRq)
+        } catch{
+            print("ERROR AL BORRAr")
         }
     }
     func retrieveAvisos() -> [AvisoEntity]{

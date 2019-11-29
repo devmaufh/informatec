@@ -18,6 +18,9 @@ class DetalleAvisoViewController: UIViewController {
         UINavigationBar.appearance().backgroundColor = UIColor.blue
         lblTitulo.text = aviso.titulo
         lblDescripcion.text = aviso.descripcion
+        let url: String!
+        url = "http://informatec.azurewebsites.net/images/\(aviso.image ?? "")"
+        img.load(url: URL(string: url)!)
         
     }
     

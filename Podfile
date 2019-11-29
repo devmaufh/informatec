@@ -8,6 +8,7 @@ target 'informaTEC' do
   # Pods for informaTEC
   pod 'lottie-ios'
   pod 'Alamofire', '~> 4.7'
+  pod 'AlamofireImage'
   pod 'SwiftyJSON', '~> 4.0'
   target 'informaTECTests' do
     inherit! :search_paths
