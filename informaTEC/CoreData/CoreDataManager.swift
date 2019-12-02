@@ -23,7 +23,6 @@ class CoreDataManager{
                 fatalError("BD error \(error)")
                 return
             }
-            print("DB cool")
             
             
         })

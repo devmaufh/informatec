@@ -31,6 +31,20 @@ class RegisterViewController: UIViewController {
         tfPassword.setIcon(UIImage(named: "pass")!)
         tfConfirmPassword.setIcon(UIImage(named: "cpass")!)
     }
+    
+    @IBAction func btnRegistro(_ sender: UIButton) {
+        let user: String! = tfName.text
+        let pass:String! = tfPassword.text
+        let mail :String! = tfEmail.text
+        let telefono: String! = tfPhone.text
+        var x = ApiRepository().login(usr: user, pass: pass, correo: mail, telefono: telefono)
+        
+        
+    }
+    
+    
+    //ApiRepository().login(usr: "rfc1", pass: "12345", correo: "nuevo@s.com", telefono: "prin")
+
 
    
 
@@ -42,6 +56,10 @@ class RegisterViewController: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
+     
+     
+     
+     
     */
     
 

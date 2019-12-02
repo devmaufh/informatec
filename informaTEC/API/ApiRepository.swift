@@ -23,7 +23,6 @@ class ApiRepository {
                         return
                 }
                 _ = JSON(values)["avisos"].array?.map{ json in
-                    print(json)
                     let id: Int16 = json["idAviso"].int16Value
                     let usrId: Int16 = json["usrId"].int16Value
                     let titulo: String = json["titulo"].stringValue
@@ -46,7 +45,18 @@ class ApiRepository {
                 }
         }
     }
-    func login(){
-        //Alamofire.request("http://informatec.azurewebsites.net/login").responseJSON(response in guard response.result.isSuccess)
+    func login(usr: String, pass:String, correo: String, telefono:String){
+       let parameters: [String: Any] = [
+            "usrId" : usr,
+            "pwd" : pass,
+            "noTel": telefono,
+            "correo": correo
+
+        ]
+        Alamofire.request("http://informatec.azurewebsites.net/login", method: .post, parameters: parameters, encoding: JSONEncoding.default)
+            .responseJSON { response in
+                print("RESPONSE REQUEST LOGIN")
+                print(response)
+            }
     }
 }
