@@ -37,7 +37,7 @@ class RegisterViewController: UIViewController {
         let pass:String! = tfPassword.text
         let mail :String! = tfEmail.text
         let telefono: String! = tfPhone.text
-        var x = ApiRepository().login(usr: user, pass: pass, correo: mail, telefono: telefono)
+        ApiRepository().login(usr: user, pass: pass, correo: mail, telefono: telefono)
         
         
     }
