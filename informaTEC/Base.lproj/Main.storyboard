@@ -82,7 +82,7 @@
                     <connections>
                         <outlet property="txtControl" destination="RXp-Aq-7cy" id="Ndm-QW-FFU"/>
                         <outlet property="txtPassword" destination="fnT-aI-Da0" id="Fob-o0-tz9"/>
-                        <segue destination="2G3-WI-Pan" kind="showDetail" identifier="segueHome" id="AtU-pf-m2K"/>
+                        <segue destination="2G3-WI-Pan" kind="show" identifier="segueHome" id="AtU-pf-m2K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -138,6 +138,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="btnRegistro:" destination="Szj-bm-LUb" eventType="touchUpInside" id="cRO-eL-3fz"/>
+                                    <segue destination="2G3-WI-Pan" kind="show" id="n4Z-4D-OIl"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconfinder_icon-70_667363" translatesAutoresizingMaskIntoConstraints="NO" id="NWy-VU-CrI">
@@ -281,6 +282,8 @@
                     </tabBarItem>
                     <connections>
                         <outlet property="credencialView" destination="Az7-fh-Hie" id="Ovi-Hy-zRU"/>
+                        <outlet property="lblid" destination="xH1-7l-X85" id="fij-rY-5OW"/>
+                        <outlet property="lblnombre" destination="oog-CD-egY" id="phH-eq-5go"/>
                         <outlet property="qrImage" destination="eCH-3b-P6y" id="w99-cC-xnr"/>
                     </connections>
                 </viewController>
@@ -412,6 +415,7 @@
         <scene sceneID="iRG-3h-jlG">
             <objects>
                 <tabBarController storyboardIdentifier="homeScreen" title="Home" wantsFullScreenLayout="YES" id="2G3-WI-Pan" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="lx2-Jk-xBw"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zcC-bm-zsN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -457,4 +461,7 @@
         <image name="icons8-cucha-25" width="25" height="25"/>
         <image name="icons8-identificación-verificada-25" width="25" height="25"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="n4Z-4D-OIl"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -33,6 +33,8 @@ class RegisterViewController: UIViewController {
     }
     
     @IBAction func btnRegistro(_ sender: UIButton) {
+        
+
         let user: String! = tfName.text
         let pass:String! = tfPassword.text
         let mail :String! = tfEmail.text

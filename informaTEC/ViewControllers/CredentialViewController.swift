@@ -11,10 +11,14 @@ import UIKit
 class CredentialViewController: UIViewController {
     
 
+    @IBOutlet weak var lblnombre: UILabel!
     @IBOutlet weak var credencialView: UIView!
     
+    @IBOutlet weak var lblid: UILabel!
     @IBOutlet weak var qrImage: UIImageView!
     override func viewDidLoad() {
+        let nom = UserDefaults.standard.string(forKey: "nomUsr") ?? "Juan daniel torres moreno"
+        let usrId = UserDefaults.standard.string(forKey: "usrId") ?? "rfc1"
         super.viewDidLoad()
         credencialView.layer.cornerRadius = 20.0
         credencialView.layer.shadowColor = UIColor.gray.cgColor
@@ -23,9 +27,12 @@ class CredentialViewController: UIViewController {
         credencialView.layer.shadowOpacity = 0.7
         let value = UIInterfaceOrientation.landscapeLeft.rawValue
         UIDevice.current.setValue(value, forKey: "orientation")
-        qrImage.image = generateQRCode(from: "16980868")
+        qrImage.image = generateQRCode(from: usrId)
         self.tabBarController?.tabBar.isHidden = false
-
+        
+        lblnombre.text = nom
+        lblid.text = usrId
+        
 
     }
     var flag = false

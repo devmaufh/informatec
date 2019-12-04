@@ -48,7 +48,7 @@ class ApiRepository {
     
     func decode(jwtToken jwt: String) -> [String: Any] {
       let segments = jwt.components(separatedBy: ".")
-      return decodeJWTPart(segments[1]) ?? [:]
+        return decodeJWTPart(segments[1]) ?? [:]
     }
 
     func base64UrlDecode(_ value: String) -> Data? {
@@ -86,20 +86,26 @@ class ApiRepository {
         ]
         Alamofire.request("http://informatec.azurewebsites.net/login", method: .post, parameters: parameters, encoding: JSONEncoding.default)
             .responseJSON { response in
+                if response.result.isFailure
+                {
+                    print("ERROR! ")
+                }
+                else if let value = response.result.value
+                {
+                    let json = JSON(value)
+                    let token = self.decode(jwtToken: json["access_token"].stringValue)
+                    let defaults = UserDefaults.standard
+                    UserDefaults.standard.set(token["usrId"], forKey: "usrId")
+                    UserDefaults.standard.set(token["nomUsr"], forKey: "nomUsr")
+                    UserDefaults.standard.set(token["correo"], forKey: "correo")
+                    print(token)
+                }
+                else
+                {
+                    print("Cannot get response result value!")
+                }
                 
                 
-                let res = response.result.value
-                let json = JSON(res)
-                let token = self.decode(jwtToken: json["access_token"].stringValue)
-                
-                let defaults = UserDefaults.standard
-                defaults.set(token["correo"], forKey: "correo")
-                defaults.set(token["usrId"], forKey: "usrId")
-                defaults.set(token["nomUsr"], forKey: "nomUsr")
-
-
-
-                print(token)
             }
     }
 }
